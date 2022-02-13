@@ -9,7 +9,7 @@ import (
 
 func main() {
 
-	times := 100
+	/*times := 100
 	fmt.Println("测试开始")
 	for i := 0; i < times; i++ {
 		arr := randomArray(20, 1, 10000)
@@ -35,7 +35,14 @@ func main() {
 			fmt.Println("closed4", closed4)
 		}
 	}
-	fmt.Println("测试完成")
+	fmt.Println("测试完成")*/
+
+	/*class23.Test("asdsadas")*/
+
+	queens1 := class23.NQueens(4)
+	queens2 := class23.NQueens2(4)
+	fmt.Println("queens1", queens1)
+	fmt.Println("queens2", queens2)
 
 }
 
