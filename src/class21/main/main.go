@@ -24,4 +24,17 @@ func main() {
 	fmt.Println(limit1)
 	fmt.Println(limit2)
 	fmt.Println(limit3)
+
+	sum1 := class21.MinPathSum1([][]int{{1, 3, 1}, {1, 5, 1}, {4, 2, 1}})
+	sum2 := class21.MinPathSum1([][]int{{1, 3, 1}, {1, 5, 1}, {4, 2, 1}})
+	sum3 := class21.MinPathSum1([][]int{{1, 2, 3}, {4, 5, 6}})
+	sum4 := class21.MinPathSumDp([][]int{{1, 2, 3}, {4, 5, 6}})
+	sum5 := class21.MinPathSumDp2([][]int{{1, 2, 3}, {4, 5, 6}})
+	sum6 := class21.MinPathSumDp2([][]int{{9, 1, 4, 8}})
+	fmt.Println(sum1)
+	fmt.Println(sum2)
+	fmt.Println(sum3)
+	fmt.Println(sum4)
+	fmt.Println(sum5)
+	fmt.Println(sum6)
 }
